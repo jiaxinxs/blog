@@ -1,0 +1,109 @@
+/*
+Student: JIAXIN YAN, MENG LI, ALLAN TORRES
+Date modified: Dec 02, 2023
+Description: CST8285 ASSIGNMENT2 FILE
+*/
+
+.topnav {
+    display: fixed;
+    justify-content: left; 
+    width: 43%;
+    background-color:#1f140c;
+    overflow: hidden;
+    margin-top: 46%;
+    border-radius: 50px;
+
+}
+
+.topnav a {
+    float: left;
+    color: #decbb9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s; 
+    border-radius: 50px;
+}
+
+.topnav a:hover {
+    background-color: #decbb9;
+    color: black;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color:#997c5e;
+    color: rgb(237, 223, 209);
+    border-radius: 50px;
+}
+
+body{
+    background-image: url("./img/pexels-pixabay-262508\ \(1\).jpg");
+    background-size:100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body{
+    background-image: url("./img/pexels-pixabay-99562.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
+    margin-bottom: -0.6%;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.container{
+    width: auto;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.696);
+    padding-top: 5%;
+    padding-bottom: 20%;
+    margin: 10px 20%;
+}
+
+.contenttitle{
+    width: 80%;
+    text-align: center;
+    background-color:#e6dac7;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #a59780; 
+    color: #31271a; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #b5a994; 
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+    body{font-size: 10px;
+        flex-direction: column; }
+    }

@@ -1,0 +1,90 @@
+/*
+Student: JIAXIN YAN, MENG LI, ALLAN TORRES
+Date modified: Dec 02, 2023
+Description: CST8285 ASSIGNMENT2 FILE
+*/
+
+body{
+    background-image: url("./img/719.jpg");
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;;
+}
+.body{
+    margin-top: 50%;
+    width: auto;
+    align-content:normal;
+    padding: 10%;
+    align-content: center;
+    text-align: center;
+    width: 80%; 
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
+    margin-bottom: -0.6%;
+    color: #7b4241;
+}
+.content{
+    border-radius: 5px;
+    background-color: #edb2b0;
+}
+input{
+    border-radius: 5px;
+}
+#title{
+    width: 45%;
+    margin-bottom: 3%;
+    text-align: center;
+    height: 30px;
+}
+#content {
+    width: 60%;
+    height: 500px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #e57e7acc;
+    transition: background-color 0.3s; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.clear {
+    background-color: #e74c3c;
+}
+
+button:hover {
+    background-color: #e29b98cc;
+}
+
+#popup {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.warning {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    body{font-size: 10px;
+        flex-direction: column; }
+    }

@@ -1,0 +1,74 @@
+/*
+Student: JIAXIN YAN, MENG LI, ALLAN TORRES
+Date modified: Dec 02, 2023
+Description: CST8285 ASSIGNMENT2 FILE
+*/
+
+.topnav {
+    display: fixed;
+    justify-content: left; 
+    width: 43%;
+    background-color:#1f140c;
+    overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    border-radius: 50px;
+
+}
+
+.topnav a {
+    float: left;
+    color: #decbb9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+    transition: background-color 0.3s; 
+}
+
+.topnav a:hover {
+    background-color: #decbb9;
+    color: black;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color: #997c5e;
+    color: rgb(237, 223, 209);
+    border-radius: 50px;
+}
+body{
+    background-image: url(./img/pexels-negative-space-34658.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header{
+    margin-left:15%;
+    margin-top: 10%;
+    text-align: center;
+    background-color: #decbb9; 
+    padding: 0px;
+    width: 30%;
+    font-size: 60px;
+    border-radius: 20px;
+}
+.h1{
+    margin-left: 10%;
+    margin-top: 50px; 
+    text-align: center;
+    background-color: #decbb9; 
+    padding: 0px;
+    height:50%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    body{font-size: 10px;
+        flex-direction: column; }
+    }

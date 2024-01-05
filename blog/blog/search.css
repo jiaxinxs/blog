@@ -1,0 +1,104 @@
+/*
+Student: JIAXIN YAN, MENG LI, ALLAN TORRES
+Date modified: Dec 02, 2023
+Description: CST8285 ASSIGNMENT2 FILE
+*/
+
+.topnav {
+    display: flex;
+    justify-content: left; 
+    width: 43%;
+    background-color:#313131;
+    overflow: hidden;
+    margin-top: 46%;
+    border-radius: 50px;
+
+}
+
+.topnav a {
+    float: left;
+    color: #bcbec2; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+    transition: background-color 0.3s; 
+}
+
+.topnav a:hover {
+    background-color: rgb(218, 212, 208);
+    color: black;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color:#656565;
+    color: rgb(239, 239, 239);
+    border-radius: 50px;
+}
+
+body{
+    background-image: url("./img/question-mark-1872665_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #c1c1c1f1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.search-button {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color: #6c747e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    outline: none;
+}
+button.clear {
+    background-color: #5a5555;
+}
+
+button:hover {
+    background-color: #a19b9bcc;
+}
+.search-results {
+    padding: 0;
+}
+
+.search-result-item {
+    border: 1px solid #716a6a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body{font-size: 10px;
+        flex-direction: column; }
+    }
